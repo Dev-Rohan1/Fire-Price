@@ -12,7 +12,7 @@ The platform empowers general users 👤, shopkeepers 🛍️, and administrator
 
 ## 🖼️ Website Screenshot
 
-![App Screenshot](https://i.imgur.com/Q2GHTvT.png)
+![App Screenshot](https://res.cloudinary.com/dntarupgf/image/upload/v1751745748/fire-price_pwmxl2.png)
 
 ## 🛠️ Tech Stack
 
@@ -108,7 +108,7 @@ The platform empowers general users 👤, shopkeepers 🛍️, and administrator
 
 - 🧭 **Location-Based Filtering**
 
-  - Region filtering: **Division → District → Upazila**
+  - Region filtering: **Division**
   - Shows region-wise products, complaints, and shops
 
 - 🌐 **Fully Responsive Frontend**
