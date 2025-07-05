@@ -191,7 +191,7 @@ root/
 
 To run this project, create a `.env` file in your **Backend** directory and add the following environment variables:
 
-````env
+```env
 # 📦 MongoDB Connection
 DATABASE_CONNECTION_STRING=your_mongodb_connection_string
 
@@ -234,7 +234,7 @@ Follow the steps below to get the project up and running locally:
 ```bash
   git clone https://github.com/Dev-Rohan1/Fair-Price.git
   cd Fair-Price
-````
+```
 
 🖥️ Run Frontend (User App)
 
