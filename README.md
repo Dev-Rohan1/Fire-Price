@@ -5,10 +5,10 @@ The platform empowers general users 👤, shopkeepers 🛍️, and administrator
 
 ## 🌐 Live Demo
 
-- **Frontend:** [Vercel Deployment Link](#)
+- **🖥️Frontend:** [Vercel Deployment Link](https://fire-price-frontend.vercel.app/)
 
-- **Dashboard:** [Vercel Deployment Link](#)
-- **Backend:** [Render Deployment Link](#)
+- **📊Dashboard:** [Vercel Deployment Link](https://fire-price-dashbaord.vercel.app/)
+
 
 ## 🖼️ Website Screenshot
 
