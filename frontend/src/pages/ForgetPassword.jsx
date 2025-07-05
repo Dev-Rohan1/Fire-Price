@@ -203,16 +203,7 @@ const ForgetPassword = () => {
                   />
                 ))}
             </div>
-            <div className="text-center text-sm text-gray-600">
-              <p>আপনার ইমেইলে ওটিপি পাননি?</p>
-              <button
-                type="button"
-                onClick={handleResendOtp}
-                className="text-indigo-600 hover:text-indigo-500 font-medium"
-              >
-                ওটিপি পুনরায় পাঠান
-              </button>
-            </div>
+
             <button
               type="submit"
               className="w-full py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition"

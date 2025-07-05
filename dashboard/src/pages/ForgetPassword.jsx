@@ -71,25 +71,6 @@ const ForgetPassword = () => {
     }
   };
 
-  const handleResendOtp = async () => {
-    setLoading(true);
-    try {
-      const { data } = await axios.post(
-        `${backendUrl}/goverment/reset-password-otp`,
-        { email }
-      );
-      if (data.success) {
-        toast.success("ওটিপি পুনরায় পাঠানো হয়েছে");
-      } else {
-        toast.error(data.message);
-      }
-    } catch (error) {
-      toast.error(error?.response?.data?.message || "সার্ভার সমস্যা হয়েছে");
-    } finally {
-      setLoading(false);
-    }
-  };
-
   const handleOtpSubmit = async (e) => {
     e.preventDefault();
     if (otp.length !== 6 || !/^\d{6}$/.test(otp)) {
@@ -204,16 +185,6 @@ const ForgetPassword = () => {
                     required
                   />
                 ))}
-            </div>
-            <div className="text-center text-sm text-gray-600">
-              <p>আপনার ইমেইলে ওটিপি পাননি?</p>
-              <button
-                type="button"
-                onClick={handleResendOtp}
-                className="text-indigo-600 hover:text-indigo-500 font-medium"
-              >
-                ওটিপি পুনরায় পাঠান
-              </button>
             </div>
             <button
               type="submit"
