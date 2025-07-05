@@ -1,6 +1,7 @@
 # 🔥💰 ন্যায্য মূল্য – Fair Price Web Application 🛒🇧🇩
 
-**"ন্যায্য মূল্য"** is a Full Stack web application designed to ensure **price transparency and fair trade** across markets in Bangladesh. The platform empowers general users, shopkeepers, and administrators to collaboratively monitor and report product prices in a structured and accessible way.
+**"ন্যায্য মূল্য"** 🛒 is a Full Stack web application 💻 designed to ensure price transparency 💰 and fair trade ⚖️ across markets in Bangladesh 🇧🇩.
+The platform empowers general users 👤, shopkeepers 🛍️, and administrators 🛡️ to collaboratively monitor 👁️‍🗨️ and report 📝 product prices in a structured 📊 and accessible 🌐 way.
 
 ## 🌐 Live Demo
 
