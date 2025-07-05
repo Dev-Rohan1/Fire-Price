@@ -77,7 +77,7 @@ const DashboardPage = () => {
               <RecentProducts allProducts={allProducts} />
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.8fr] border-t border-gray-200 mt-6 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.8fr] border-t border-gray-200 mt-6 gap-4 mb-4">
               <ShopPieChart
                 totalStore={totalStore}
                 retailShop={retailShop}

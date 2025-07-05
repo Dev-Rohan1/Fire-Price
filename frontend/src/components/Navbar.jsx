@@ -1,9 +1,9 @@
 import { ChevronDown, CircleUserRound, LogOut, Menu, X } from "lucide-react";
 import { useContext, useEffect, useRef, useState } from "react";
+import { toast } from "react-hot-toast";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { assets, menu } from "../assets/assets";
 import { AppContext } from "../contexts/AppContext";
-import { toast } from "react-hot-toast";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -45,7 +45,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
           <img className="w-11 md:w-13" src={assets.logo} alt="Logo" />
-          <h2 className="hidden md:block text-lg md:text-xl font-bold text-green-700">
+          <h2 className="text-lg md:text-xl font-bold text-green-700">
             ন্যায্যমূল্য
           </h2>
         </Link>
