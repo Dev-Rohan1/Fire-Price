@@ -212,7 +212,7 @@ SMTP_PORT=your_smtp_port
 SMTP_USER=your_smtp_email
 SMTP_PASSWORD=your_smtp_email_password
 
-
+```
 
 ---
 
